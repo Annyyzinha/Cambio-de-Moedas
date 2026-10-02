@@ -18,7 +18,7 @@ Aplicação web interativa, desenvolvida em React.js e estilizada com React-Boot
 * **Consulta de Cotações:** Carregamento automático das principais taxas de câmbio internacionais com base no Real Brasileiro.
 * **Conversão de Câmbio:** Conversão dinâmica entre diferentes pares de moedas por meio de requisições parametrizadas à API.
 * **Validação Pré-envio:** Bloqueio e sinalização visual na interface em caso de valores inválidos, campos vazios ou moedas idênticas.
-* **Tratamento de Erros Pós-envio:** Interceptação e exibição de alertas para falhas de conexão ou retornos HTTP da API.
+* **Tratamento de Erros:** Interceptação e exibição de alertas para falhas de conexão ou retornos HTTP da API.
 * **Tabela Otimizada com `useMemo`:** Listagem e filtragem de taxas cambiais.
 
 ---
@@ -91,4 +91,4 @@ conversor-moedas/
 ---
 
 ## 🌐 Publicação (Deploy)
-* **Ambiente de Produção:** [https://fluffy-conkies-64d296.netlify.app](https://fluffy-conkies-64d296.netlify.app)
+* **Ambiente de Produção:** [https://resilient-dodol-bca86c.netlify.app](https://resilient-dodol-bca86c.netlify.app)
