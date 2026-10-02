@@ -29,11 +29,12 @@ export default function ResultadoConversao() {
           Taxa aplicada: 1 {query?.from} = {info?.rate?.toFixed(4)} {query?.to}
         </p>
 
-        {date && (
-          <small className="text-secondary d-block mt-2">
-            Data da cotação: {date}
-          </small>
-        )}
+        <small className="text-secondary d-block mt-2">
+          Data/hora da cotação:{' '}
+          {info?.timestamp
+            ? new Date(info.timestamp * 1000).toLocaleString('pt-BR')
+            : date}
+        </small>
       </Card.Body>
     </Card>
   );
